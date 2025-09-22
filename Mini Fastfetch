@@ -1,0 +1,10 @@
+figlet "TERMINAL" | lolcat
+
+      echo " ----------------------------------------------------" | lolcat
+      echo " OS: Arch Linux" | lolcat
+      echo " User: $(whoami)" | lolcat
+      echo " Kernel: $(uname -r)" | lolcat
+      echo " Uptime: $(uptime -p)" | lolcat
+      echo " Shell: $SHELL" | lolcat
+      echo " ----------------------------------------------------" | lolcat
+      echo "                                                               
